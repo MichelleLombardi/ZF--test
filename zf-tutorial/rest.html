@@ -6,11 +6,11 @@
     var request;
     if (isIE8) {
         request = new window.XDomainRequest();
-        request.setRequestHeader("Authorization", "Basic " + btoa("michellelombardim@gmail.com:6e35b77f55da1b2dc7fa"));
+        request.setRequestHeader("Authorization", "Basic " + btoa("emailOculto:tokenOculto"));
     }
       else {
         request = new XMLHttpRequest();
-        request.setRequestHeader("Authorization", "Basic " + btoa("michellelombardim@gmail.com:6e35b77f55da1b2dc7fa"));
+        request.setRequestHeader("Authorization", "Basic " + btoa("emailOculto:tokenOculto"));
     }
     return request;
   }

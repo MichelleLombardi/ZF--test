@@ -15,7 +15,7 @@ class Application_Model_DbTable_Principal extends Zend_Db_Table_Abstract {
             "Accept: application/json",
             "Content-type: application/json"
         );*/
-      /*  $credentials = 'michellelombardim@gmail.com:6e35b77f55da1b2dc7fa';
+      /*  $credentials = 'emailOculto:xxxxxxxxxxxxxxxxxxxxxx';
         $url_req= 'https://app.alegra.com/api/v1/contacts/';
         $request = new Request();
         $request->setMethod(Request::METHOD_GET);
@@ -29,7 +29,7 @@ class Application_Model_DbTable_Principal extends Zend_Db_Table_Abstract {
       /*  $headers = $client->getRequest()->getHeaders();
         $cookies = new Zend\Http\Cookies($headers);
         $client->setUri('https://app.alegra.com/api/v1/contacts/');
-        $client->setAuth('michellelombardim@gmail.com', '6e35b77f55da1b2dc7fa', Zend\Http\Client::AUTH_BASIC);
+        $client->setAuth('emailOculto', 'xxxxxxxxxxxxxxxxxxxxxx', Zend\Http\Client::AUTH_BASIC);
         $response = $client->setMethod('GET')->send();
         return $response;*/
     }

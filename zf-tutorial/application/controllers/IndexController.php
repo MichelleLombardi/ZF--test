@@ -23,7 +23,7 @@ class IndexController extends Zend_Controller_Action
         $this->view->principal = $principal->fetchAll();
 
        //echo Zend_Json::encode($principal);
-     /*  $credentials = 'michellelombardim@gmail.com:6e35b77f55da1b2dc7fa';
+     /*  $credentials = 'emailOculto:xxxxxxxxxxxxxxxxxxxxxx';
        $url_req= 'https://app.alegra.com/api/v1/contacts/';
        $request = new Request();
        $request->setMethod(Request::METHOD_GET);
